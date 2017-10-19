@@ -1,6 +1,6 @@
-The goal is to be the first player to win all 54 cards. 
-The deck is divided evenly, with each player receiving 27 cards, dealt one at a time, face down. 
-Cards are ranked (2-10,J,Q,K,A,Jokers) from lowest to highest left to right.
+The goal is to be the first player to win all 52 cards. // no jokers
+The deck is divided evenly, with each player receiving 26 cards, dealt one at a time, face down. // no jokers
+Cards are ranked (2-10,J,Q,K,A,) from lowest to highest left to right.// no jokers
 If at any point in the game a player does not posses enough cards to continue:
    They lose.
 
@@ -43,7 +43,7 @@ Else:
     Repeat for the next round
 If one player has no cards to be played:
   They lose
-(2-10,J,Q,K,A,Jokers) Ranked from lowest to highest left to right.
+(2-10,J,Q,K,A) Ranked from lowest to highest left to right. // no jokers
 If both players run out of cards without a winner being declared:
   Play again.
 Otherwise continue the game as usual.
